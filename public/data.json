@@ -3,7 +3,7 @@
         "id": 1,
         "cover_img": "https://i.ibb.co/jDvJPZK/Rectangle-2.jpg",
         "title": "Introduction to C Programming",
-        "info": "C is a foundational programming language known for its efficiency and low-level hardware access. It's essential for system programming and building robust software applications.",
+        "info": "Explore the fundamentals of C programming, from variables to control structures. Kickstart your journey into the world of coding with this foundational course.",
         "price": 15000,
         "hours": 1
       },
@@ -11,7 +11,7 @@
         "id": 2,
         "cover_img": "https://i.ibb.co/r3f14SC/Rectangle-2-1.jpg",
         "title": "Introduction to Algorithms",
-        "info": "Algorithms are step-by-step procedures for solving problems. In computer science, they're essential for data processing and decision-making. Studying algorithms is crucial for efficient problem-solving in programming and beyond.",
+        "info": "Dive into the world of algorithms, learning their design and analysis. Master problem-solving and efficiency in this essential computer science course.",
         "price": 25000,
         "hours": 2
       },
@@ -19,7 +19,7 @@
         "id": 3,
         "cover_img": "https://i.ibb.co/rMKN0hf/Rectangle-2-2.jpg",
         "title": "Introduction to C++ for DSA",
-        "info": "C++ is a versatile programming language used in DSA. It combines object-oriented features with efficient memory management, making it ideal for implementing complex data structures and algorithms.",
+        "info": "Unlock C++ for Data Structures and Algorithms. Learn syntax, data types, and object-oriented principles to ace coding interviews and problem-solving challenges.",
         "price": 10000,
         "hours": 10
       },
@@ -27,7 +27,7 @@
         "id": 4,
         "cover_img": "https://i.ibb.co/0XbcBnf/Rectangle-3.jpg",
         "title": "Basic Data Structures",
-        "info": "Basic data structures like arrays, linked lists, stacks, and queues are fundamental building blocks in computer science. They organize and store data efficiently, enabling various algorithmic operations.",
+        "info": "Build a strong foundation in data structures: arrays, linked lists, trees, and more. Enhance your problem-solving skills and algorithms knowledge.",
         "price": 35000,
         "hours": 5
       },
@@ -35,15 +35,15 @@
         "id": 5,
         "cover_img": "https://i.ibb.co/7zdwFDm/Rectangle-2-3.jpg",
         "title": "Introduction to OOP Python",
-        "info": "Object-Oriented Programming (OOP) in Python is a paradigm that emphasizes organizing code into objects. Python's simplicity and readability make it an excellent choice for OOP, fostering modular and reusable code design.",
+        "info": "Discover Object-Oriented Programming in Python. Create reusable classes, objects, and master the art of code organization for efficient software development.",
         "price": 19000,
         "hours": 5
       },
       {
         "id": 6,
         "cover_img": "https://i.ibb.co/JrLpPSr/Rectangle-2-4.jpg",
-        "title": "Software Engineering",
-        "info": "Software engineering is a disciplined approach to designing, developing, and maintaining software systems. It involves processes, tools, and methodologies to ensure the quality, reliability, and efficiency of software products.",
+        "title":"Software Engineering",
+        "info": "Learn Software Engineering principles, including design, testing, and project management. Develop the skills to create robust and scalable software systems.",
         "price": 23000,
         "hours": 2
       },
@@ -51,7 +51,7 @@
         "id": 7,
         "cover_img": "https://i.ibb.co/GJZVy33/Rectangle-3-1.jpg",
         "title": "AWS, Cloud Computing",
-        "info": "AWS (Amazon Web Services) is a leading cloud computing platform, offering a vast array of services such as storage, computing, databases, and more. It enables organizations to scale and innovate flexibly in the cloud.",
+        "info": "Explore AWS and Cloud Computing. Harness the power of cloud services for scalability, reliability, and cost-effective infrastructure management in your projects.",
         "price": 35000,
         "hours": 5
       },
@@ -59,7 +59,7 @@
         "id": 8,
         "cover_img": "https://i.ibb.co/kQY3WpM/Rectangle-2-5.jpg",
         "title": "Database (MySQL)",
-        "info": "MySQL is an open-source relational database management system. It stores, retrieves, and manages data, making it a popular choice for web applications and various software solutions due to its speed and reliability.",
+        "info": "Master MySQL database management. From designing schemas to querying data, gain expertise in one of the most widely used relational database systems.",
         "price": 19000,
         "hours": 5
       },
@@ -67,7 +67,7 @@
         "id": 9,
         "cover_img": "https://i.ibb.co/602kkgY/Rectangle-2-6.jpg",
         "title": "Problem-Solving Part",
-        "info": "The problem-solving part involves analyzing issues, formulating strategies, and implementing solutions. It's a critical aspect of various fields, from programming and engineering to business and everyday life.",
+        "info": "Enhance your problem-solving prowess. Tackle coding challenges, algorithms, and logical thinking to excel in coding interviews and real-world scenarios.",
         "price": 23000,
         "hours": 2
       }
