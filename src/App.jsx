@@ -7,11 +7,15 @@ import Header from './Header/Header'
 
 function App() {
  const [cartlist,setCartList] = useState([])
+ const [creditHour, setCreditHour] = useState(0)
+ const [remCreditHour, setRemCredit] = useState(20)
 
- const selectHandler = card => {
+ const selectHandler = (card,hours) => {
   // console.log('card clicked',card);
   const newCart = [...cartlist,card]
   setCartList(newCart);
+  setCreditHour(creditHour+hours)
+  setRemCredit(remCreditHour-hours)
 
  }
 
@@ -23,7 +27,7 @@ function App() {
 
     <div className=' md:flex gap-2 md:px-3 container mx-auto'>
       <Cards selectHandler={selectHandler}></Cards>
-      <Cart cartlist={cartlist}></Cart>
+      <Cart cartlist={cartlist} creditHour={creditHour} remCreditHour={remCreditHour}></Cart>
     </div>
       
       

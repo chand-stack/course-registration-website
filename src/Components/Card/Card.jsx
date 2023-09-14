@@ -12,7 +12,7 @@ const Card = ({card,selectHandler}) => {
                 <p className='flex items-center gap-1'><FiDollarSign></FiDollarSign> <span className=' text-gray-600 font-medium'> Price: {price}</span></p>
                 <p className='flex items-center gap-1'><BsBook></BsBook> <span className=' text-gray-600 font-medium'>Credit : {hours}hr</span></p>
             </div>
-            <button onClick={()=>selectHandler(card)} className=' btn bg-sky-600 text-lg text-white font-semibold w-full py-2'>Select</button>
+            <button onClick={()=>selectHandler(card,hours)} className=' btn bg-sky-600 text-lg text-white font-semibold w-full py-2'>Select</button>
         </div>
     );
 };
