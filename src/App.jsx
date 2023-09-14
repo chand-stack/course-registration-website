@@ -1,13 +1,17 @@
 
 import './App.css'
+import Header from './Header/Header'
 
 function App() {
  
 
   return (
     <>
+    <header>
+    <Header></Header>
+    </header>
       
-      <h1>Course Registration</h1>
+      
       
     </>
   )
