@@ -1,0 +1,75 @@
+ [
+      {
+        "id": 1,
+        "cover_img": "https://i.ibb.co/jDvJPZK/Rectangle-2.jpg",
+        "title": "Introduction to C Programming",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 15000,
+        "hours": 1
+      },
+      {
+        "id": 2,
+        "cover_img": "https://i.ibb.co/r3f14SC/Rectangle-2-1.jpg",
+        "title": "Introduction to Algorithms",
+        "info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "price": 25000,
+        "hours": 2
+      },
+      {
+        "id": 3,
+        "cover_img": "https://i.ibb.co/rMKN0hf/Rectangle-2-2.jpg",
+        "title": "Introduction to C++ for DSA",
+        "info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price": 10000,
+        "hours": 10
+      },
+      {
+        "id": 4,
+        "cover_img": "https://i.ibb.co/0XbcBnf/Rectangle-3.jpg",
+        "title": "Basic Data Structures",
+        "info": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "price": 35000,
+        "hours": 5
+      },
+      {
+        "id": 5,
+        "cover_img": "https://i.ibb.co/7zdwFDm/Rectangle-2-3.jpg",
+        "title": "Introduction to OOP Python",
+        "info": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "price": 19000,
+        "hours": 5
+      },
+      {
+        "id": 6,
+        "cover_img": "https://i.ibb.co/JrLpPSr/Rectangle-2-4.jpg",
+        "title": "Software Engineering",
+        "info": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "price": 23000,
+        "hours": 2
+      },
+      {
+        "id": 7,
+        "cover_img": "https://i.ibb.co/GJZVy33/Rectangle-3-1.jpg",
+        "title": "AWS, Cloud Computing",
+        "info": "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "price": 35000,
+        "hours": 5
+      },
+      {
+        "id": 8,
+        "cover_img": "https://i.ibb.co/kQY3WpM/Rectangle-2-5.jpg",
+        "title": "Database (MySQL)",
+        "info": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "price": 19000,
+        "hours": 5
+      },
+      {
+        "id": 9,
+        "cover_img": "https://i.ibb.co/602kkgY/Rectangle-2-6.jpg",
+        "title": "Problem-Solving Part",
+        "info": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "price": 23000,
+        "hours": 2
+      }
+    ]
+  
