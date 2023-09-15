@@ -1,4 +1,4 @@
-const Cart = ({cartlist,creditHour,remCreditHour}) => {
+const Cart = ({cartlist,creditHour,remCreditHour,totalPrice}) => {
     console.log(cartlist);
     return (
         <div className=" w-full md:w-1/4 ">
@@ -11,8 +11,8 @@ const Cart = ({cartlist,creditHour,remCreditHour}) => {
                     cartlist.map(item => (<li key={item.id}>{item.title}</li>))
                 }
             </div>
-            <h1 className=" font-semibold py-2 border-b-2">Total Credit Hour : {creditHour}</h1>
-            <h1 className=" font-semibold py-2">Total Price : 48000 USD</h1>
+            <h1 className=" font-semibold py-2 border-b-2">Total Credit Hour : {creditHour} hr</h1>
+            <h1 className=" font-semibold py-2">Total Price : {totalPrice} USD</h1>
             </div>
             
         </div>
