@@ -17,7 +17,7 @@ function App() {
 
  const selectHandler = (card,hours) => {
   console.log('card clicked',card);
-
+  const newCredit = creditHour+hours;
   const cardId = cartlist.find(item => item.id === card.id);
   if(cardId){
   return  toast.warn('This Course Already Exist', {
@@ -30,7 +30,7 @@ function App() {
       progress: undefined,
       theme: "colored",
       });
-  }else if(creditHour>=20){
+  }else if(newCredit > 20 ){
     return  toast.warn('Exceeded Allocated Hours', {
       position: "top-center",
       autoClose: 5000,
@@ -44,7 +44,7 @@ function App() {
   }else{
     const newCart = [...cartlist,card]
   setCartList(newCart);  
-  setCreditHour(creditHour+hours)
+  setCreditHour(newCredit)
   setRemCredit(remCreditHour-hours)
   setTotalPrice(totalPrice+card.price)
   }
